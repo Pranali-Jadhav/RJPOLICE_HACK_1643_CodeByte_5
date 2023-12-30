@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap');
+
+*{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    border: border-box;
+  }
+
+body {
+
+    font-family: 'Outfit', sans-serif;
+  
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+/* -------------Header CSS---------------- */
+.panel {
+    display: flex;
+    height: 85px;
+    /* background: rgba(0, 0, 0, 0.5); */
+    color: #072C62;
+    align-items: center;
+    justify-content: space-evenly;
+    font-weight: 600;
+    width: 100%;
+position: fixed;
+z-index: 1000;  
+
+  }
+
+.panel-last h1 {
+  
+ 
+}
+/* Rest of your styles remain unchanged */
+
+
+/* Rest of your styles remain unchanged */
+
+  
+  .panel-ops p {
+    display: inline;
+    margin-left: 20px;
+    font-weight: 500;
+    color: #ffffff;
+    
+  }
+  .panel-ops h1 {
+    display: inline;
+    margin-left: 20px;
+    color: green;
+  
+  }
+  .panel-ops button {
+    display: inline;
+    margin-left:20px;
+  
+  }
+  .panel-ops {
+    width: 90%;
+    font-size: 1rem;
+    margin-top: -2%;
+  }
+
+  .panel-ops p a{
+    color:green;
+    font-weight: 700;
+
+  }
+  
+  
+  .panel-last {
+    margin-left: 30px;
+  
+    width:100%;
+    font-weight: 700;
+    font-size: 0.875rem;
+  }
+  .panel-last img{
+    width: 260px;
+    margin-left: -4%;
+  }
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  .panel-ops p a{
+    text-decoration: none;
+  }
+  
+  .effectOnHover a:hover{
+  text-decoration: underline;
+
+  }
+  
+  
+  
+  button {
+    background: #e85757;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    display: block;
+    font-size: 0.975rem;
+    font-weight: 700;
+    padding: 16px;
+    width: 150px;
+    color: white;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+  .button2 {
+    background-color: white; 
+    color: #072C62; 
+    border: 2px solid#072C62;
+  }
+  .button2:hover {
+    background-color: #072C62;
+    color: white;
+  }
+
+/* -------------SecondPage-------------------- */
+
+.SecondPage{
+ background-color: black;
+ color: #fff;
+padding: 20px;
+ text-align: center;
+}
+.SecondPageContent{
+margin-top: 10%;
+margin-bottom: 5%;
+}
+.SecondPage h1{
+   
+    font-size: 76px;
+    font-weight: 700;
+   
+    color: green;
+}
+.SecondPage h4{
+   font-size: 25px;
+
+}
+
+.LinkInput{
+
+    margin-top: 10%;
+    width: 40%;
+    height: 65px;
+    border-radius: 10px;
+    background-color:#E5E4E2 ;
+    margin-left: 25%;
+  
+}
+input::placeholder {
+    color: black; 
+    font-size: 17px;
+  
+    font-weight: 550;
+  }
+.ScanButton{
+    margin-top: 10%;
+    width: 10%;
+    height: 70px;
+    background-color: #1fd655;
+    border: none;
+    border-radius: 10px;
+    margin-left: -0.4%;
+   
+}
+.SecondImage{
+    margin-top: 2%;
+    height: 300px;
+    margin-left: -3%;
+}
+.SecondPageInput{
+    display: flex;
+    
+}
+
+.ThirdPage{
+    background-color: black;
+ color: #fff;
+padding: 20px;
+ text-align: center; 
+}
+.ThirdPageContent{
+
+    margin-bottom: 5%;
+}
+.ThirdPage h1{
+   
+    font-size: 76px;
+    font-weight: 700;
+   
+    color: green;
+}
+.ThirdPage h4{ 
+    font-size: 22px;
+}
+.AdInput{
+
+    margin-top: 5%;
+    width: 30%;
+    height: 200px;
+    background-color:#E5E4E2 ;
+    border-radius: 10px;
+    border: none;
+    position: relative; /* Make the input container relative for absolute positioning */
+}
+.ScanAdButton{
+    margin-top: 0.5%;
+    width: 10%;
+    height: 60px;
+    background-color: #1fd655;
+    border: none;
+    border-radius: 10px;
+    margin-left: 45%;
+  
+}
+.AdInput::placeholder {
+    line-height: 1.5;
+    padding-top: 10px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+  }

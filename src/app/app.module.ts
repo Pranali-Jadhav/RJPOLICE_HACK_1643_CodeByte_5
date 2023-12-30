@@ -5,16 +5,21 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LandingPageComponent } from './landing-page/landing-page.component';
 import { ContactPageComponent } from './contact-page/contact-page.component';
+import { FormsModule } from '@angular/forms';
+import { MiddlePartComponent } from './middle-part/middle-part.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     LandingPageComponent,
-    ContactPageComponent
+    ContactPageComponent,
+    MiddlePartComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
