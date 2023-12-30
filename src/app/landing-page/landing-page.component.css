@@ -1,1 +1,295 @@
-/*  */
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap');
+
+*{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    border: border-box;
+  }
+  
+  
+  .panel {
+    display: flex;
+    height: 85px;
+    /* background: rgba(0, 0, 0, 0.5); */
+    color: #072C62;
+    align-items: center;
+    justify-content: space-evenly;
+    font-weight: 600;
+    width: 100%;
+position: fixed;
+z-index: 1000;  
+
+  }
+
+.panel-last h1 {
+  font-size: 1.5rem; /* Adjust the font size as needed */
+}
+/* Rest of your styles remain unchanged */
+
+
+/* Rest of your styles remain unchanged */
+
+  
+  .panel-ops p {
+    display: inline;
+    margin-left: 20px;
+    font-weight: 500;
+    color: #ffffff;
+    
+  }
+  .panel-ops h1 {
+    display: inline;
+    margin-left: 20px;
+    color: green;
+  }
+  .panel-ops button {
+    display: inline;
+    margin-left:20px;
+  
+  }
+  .panel-ops {
+    width: 90%;
+    font-size: 1rem;
+  }
+
+  .panel-ops p a{
+    color:green;
+    font-weight: 700;
+
+  }
+  
+  
+  .panel-last {
+    margin-left: 30px;
+  
+    width:100%;
+    font-weight: 700;
+    font-size: 0.875rem;
+  }
+  .panel-last img{
+    width: 260px;
+    margin-left: -4%;
+  }
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  .panel-ops p a{
+    text-decoration: none;
+  }
+  
+  .effectOnHover a:hover{
+  text-decoration: underline;
+
+  }
+  
+  
+  
+  button {
+    background: #e85757;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    display: block;
+    font-size: 0.975rem;
+    font-weight: 700;
+    padding: 16px;
+    width: 150px;
+    color: white;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+  .button2 {
+    background-color: white; 
+    color: #072C62; 
+    border: 2px solid#072C62;
+  }
+  .button2:hover {
+    background-color: #072C62;
+    color: white;
+  }
+  
+  
+  /* firstSection */
+  /* .firstSection {
+    height: 690px;
+    background-image: url("src/assets/images/backgroundImage.jpg");
+    background-size: cover; 
+    object-fit: contain;
+    display: flex;
+    padding-top: 2%;
+    opacity: 0.7;
+  } */
+  .firstSection {
+    position: relative;
+    height: 520px;
+    background-image: url("src/assets/images/backgroundImage.jpg");
+    background-size: cover;
+    object-fit: contain;
+    display: flex;
+    padding-top: 12%;
+  }
+  
+  .firstSection::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.75); /* Adjust the transparency here */
+    z-index: 1;
+  }
+  
+
+  .headText{
+  margin-left: 6%;
+  padding-top:5%;}
+  
+  .headText1{
+    font-size: 1.5rem;
+  color: #176B87;
+  font-weight: 500;
+  }
+  
+  .headText2{
+    font-size: 3.4rem;
+    color:#ffffff;
+    font-style: bold;
+    font-weight: 500;
+    margin-top: -2%;
+  
+      position: relative;
+      z-index: 2; /* Ensure the text is in front of the pseudo-element overlay */
+  
+  }
+  
+  .headText3{
+    margin-top: 4px;
+    color: #606060;
+  
+    letter-spacing: 0.7px;
+    font-weight: 440;
+    font-size: 0.975rem;
+  
+  }
+  
+  .PlaceImage{
+     
+              left: 3%;
+              padding-top: 0%;
+              
+  }
+  .sideImage {
+    width: 100%;
+    margin-top: -1.2%;
+  }
+  
+  .jobs{
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    display:flex;
+    padding-top: 15.6%;
+    opacity:0.7;
+  
+  }
+  
+  
+  .firstSection h1{
+   font-size: 300px;
+   color:#FFFFFF;
+  
+   
+  }
+  
+  .secondPart{
+    height:140px;
+    /* background-color: #E4F1FF; */
+    background-color: #DAFFFB;
+  }
+  
+  .apply{
+    height:40px;
+    width:100px;
+    background-color: pink;
+  }
+
+
+  .effectOnHover{
+    color:green;
+  }
+  .effectOnHover a:link {
+    color: #ffffff;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  .effectOnHover a:visited {
+    color: #ffffff;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  .effectOnHover a:hover {
+    color:#ffffff; ;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  .effectOnHover a:active {
+    color: #ffffff;
+    background-color: transparent;
+    text-decoration: underline;
+  } 
+
+
+  .buttonss{
+    display: flex;
+    margin-top: 6%;
+    position: relative;
+    z-index: 2; /* Ensure the text is in front of the pseudo-element overlay */
+  }
+
+  .buttonss button{
+    margin-right: 2%;
+  }
+
+  .B {
+    background:green ;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    display: block;
+    font-size: 15.6px;
+    font-weight: 440;
+    padding: 16px;
+    width: 150px;
+    color: #ffffff;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    position: relative;
+    z-index: 2; /* Ensure the text is in front of the pseudo-element overlay */
+  }
+  .B a{
+    color:#ffffff;
+  }
+
+  .slideit{
+background-color:#04364A ;
+  }
+
+.slideit h3{
+  /* margin-top: 2%; */
+  color: #ffffff;
+   text-align: center;
+   font-weight: 600;
+   font-size: 24px;
+   padding-top: 2%;
+}
+
+.signIN{
+color: green;
+}
